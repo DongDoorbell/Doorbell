@@ -22,3 +22,10 @@ motion.conf goes in /home/pi/.motion
 epic.txt goes in /home/pi/
 
 python scripts also go in /home/pi/
+
+#Python scripts at start up
+
+button.py &
+motion.py &
+
+these go at the end of .bashrc
